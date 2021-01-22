@@ -1,0 +1,257 @@
+/* Powered | CoderX ©2020 | Andrei Abd
+█▀▀ █▀█ █▀▄ █▀▀ █▀█ ▀▄▀
+█▄▄ █▄█ █▄▀ ██▄ █▀▄ █░█
+CODER X |تم تصميم الموقع و برمجته من قبل اندريه عبد
+mail      :  usr.g0a1@gmial.com
+CoderX    :  https://coderx-project.blogspot.com/
+Whatsapp  :  +963934820511
+Pinterest :  https://www.pinterest.com/andreiabd93
+Instagram :  https://www.instagram.com/andrei_abd/
+Linkeden  :  https://www.linkedin.com/in/andreiabd
+Facebook  :  https://www.facebook.com/andreiaabd/ */
+
+body{
+width: 100%;
+margin: auto;
+}
+#header-nave-bar{
+direction: rtl;
+font-family: 'Cairo', sans-serif;
+box-shadow: 0px 0px 5px #000;
+border-radius: 15px;
+border: 1px solid #000;
+margin: 5px;
+font-size: 20px;
+}
+#nav-bar-all{
+direction: rtl;
+font-family: 'Cairo', sans-serif;
+margin: 5px;
+font-size: 20px;
+box-shadow: 0px 0px 15px #fff;
+width: 90%;
+
+}
+#main-top-card{
+text-align: right;
+direction: rtl;
+}
+footer{
+font-size: 15px;
+}
+#footer-title{
+margin:12px;
+border: 1px solid #000;
+border-radius: 20px;
+text-align: center;
+font-weight: bold;
+box-shadow: 0px 0px 5px #000;
+}
+#footer-header-card{
+margin:20px;
+border: 1px solid #000;
+border-radius: 20px;
+text-align: center;
+font-weight: bold;
+box-shadow: 0px 0px 10px #000;
+}
+main{
+direction: ltr;
+}
+#line{
+margin:12px;
+border: 0.5px solid #000;
+}
+#marquee-blank{
+float: right;
+border: 1px solid #000 ;
+width:10%;
+height: 28px;
+border-radius: 5px 0px 0px 5px;
+box-shadow: 0px 1px 5px #000;
+}
+#marquee-blank-left{
+float: left;
+border: 1px solid #000 ;
+width:10%;
+height: 28px;
+border-radius: 0px 5px 5px 0px;
+box-shadow: 0px 1px 5px #000;
+}
+#applied-art-books{
+display: none;
+}
+#color-books{
+display: none;
+}
+#color-content{
+display: none;
+}
+#philosophy-books{
+display: none;
+}
+#philasophy-book{
+display: none;
+}
+#philasophy-content{
+display: none;
+}
+#pravicy-site{
+display: none;
+}
+#back-to-top-btn {
+display: none;
+position: fixed;
+bottom: 15px;
+right: 20px;
+font-size: 30px;
+width: 50px;
+height: 50px;
+background-color: #fff;
+color: #000;
+border-radius: 10%;
+cursor: pointer;
+border: 1px solid #000;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+transition-property: background-color, color;
+box-shadow: 0px 1px 5px #000;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+background-color: #000;
+color: #fff;
+}
+.loader {
+position: fixed;
+z-index: 99;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+background-color: #fff;
+align-items: center;
+}
+.loader img {
+width: 40%;
+}
+.loader.hidden {
+animation: fadeOut 2s;
+animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+100% {
+opacity: 0;
+visibility: hidden;
+}
+}
+#marquee-blank-mainpage{
+float: right;
+border: 1px solid #000 ;
+width:100%;
+height: 28px;
+border-radius: 0px 0px 15px 15px;
+box-shadow: 0px 1px 5px #000;
+}
+.card{
+direction: rtl;
+text-align: right;
+}
+#btn-cards-all{
+border: #000 1px solid;
+border-radius: 10px;
+box-shadow: 0px 0px 5px #000;
+}
+#btn-content-interior-design{
+border: #000 1px solid;
+border-radius: 10px;
+box-shadow: 0px 0px 5px #000;
+}
+#btn-content-fashion{
+border: #000 1px solid;
+border-radius: 10px;
+box-shadow: 0px 0px 5px #000;
+}
+#btn-content-caligraph{
+border: #000 1px solid;
+border-radius: 10px;
+box-shadow: 0px 0px 5px #000;
+}
+#btn-content-decoration{
+border: #000 1px solid;
+border-radius: 10px;
+box-shadow: 0px 0px 5px #000;
+}
+#btn-content-philasophy{
+border: #000 1px solid;
+border-radius: 10px;
+box-shadow: 0px 0px 5px #000;
+}
+#btn-content-colors{
+border: #000 1px solid;
+border-radius: 10px;
+box-shadow: 0px 0px 5px #000;
+}
+#decoration-content{
+display: none;
+}
+#colors-books{
+display: none;
+}
+#decoration-books{
+display: none;
+}
+#content{
+direction: rtl;
+text-align: right;
+margin: 20px;
+font-weight: bold;
+}
+#interior-design-content{
+display: none;
+}
+#interior-design-books{
+display: none;
+}
+#fashion-content{
+display: none;
+}
+#fashion-books{
+display: none;
+}
+#caligraph-content{
+display: none;
+}
+#caligraph-books{
+display: none;
+}
+#dialogoverlay{
+display: none;
+opacity: .8;
+position: fixed;
+top: 0px;
+left: 0px;
+background-color: #fff;
+width: 100%;
+z-index: 10;
+}
+#dialogbox{
+display: none;
+position: fixed;
+width: 250px;
+z-index: 10;
+}
+#dialogboxbody{
+color: #000;
+border: 1px solid #000;
+border-radius: 15px;
+border: 1px solid black;
+color: #000;
+box-shadow: 2px 2px 5px black;
+background-color: #fff;
+padding: 15px;
+}
+#dialogboxfooter{
+text-align: center;
+}
