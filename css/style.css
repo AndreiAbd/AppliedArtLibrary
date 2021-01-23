@@ -163,6 +163,10 @@ border: #000 1px solid;
 border-radius: 10px;
 box-shadow: 0px 0px 5px #000;
 }
+#btn-cards-all:hover,#btn-cards-all:focus{
+color: #fff;
+background-color: #000;
+}
 #btn-content-interior-design{
 border: #000 1px solid;
 border-radius: 10px;
